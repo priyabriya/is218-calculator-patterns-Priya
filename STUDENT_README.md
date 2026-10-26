@@ -14,8 +14,6 @@ python -m calculator             # run the calculator
 python -m pytest --cov=calculator --cov-report=term-missing --cov-fail-under=100
 ```
 
-Requires Python 3.12 or newer.
-
 ## Example conversation
 
 ```
@@ -37,8 +35,7 @@ calc> exit
 Goodbye!
 ```
 
-Failed calculations are never added to history. End-of-input (Ctrl+D / Ctrl+Z)
-also ends the program cleanly.
+Failed calculations are never added to history.
 
 ## Static, class, and instance methods
 
